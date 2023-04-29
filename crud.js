@@ -90,6 +90,10 @@ function deleteData(index){
     localStorage.setItem('listPeople', JSON.stringify(listPeople));
 
     ReadData();
+    
+    limpiarForm();
+    document.getElementById('btnAdd').style.display = 'block';
+    document.getElementById('btnUpdate').style.display = 'none';
 }
 
 function editData(index) {
@@ -125,5 +129,11 @@ function editData(index) {
             document.getElementById('btnUpdate').style.display = 'none';
 
         }
+        limpiarForm();
     }
+    
+}
+function limpiarForm() {
+    const form = document.getElementById('formulario')
+    form.reset();
 }

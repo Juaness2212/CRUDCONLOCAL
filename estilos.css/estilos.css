@@ -16,6 +16,9 @@ header {
 footer {
     text-align: center;
 }
+.listado {
+    text-align: center;
+}
 @media screen and (min-width: 768px) {
     .btn.btn-primary {
         width: 50% !important;
