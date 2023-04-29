@@ -14,6 +14,8 @@ header {
     background-color: black;
 }
 footer {
+    position: relative;
+    margin-top: 100%;
     text-align: center;
 }
 .listado {
@@ -31,4 +33,6 @@ footer {
         max-width: 380px;
     }
 }
-    
+.container {
+    height: auto;
+}  
